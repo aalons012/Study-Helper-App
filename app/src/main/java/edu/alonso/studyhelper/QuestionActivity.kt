@@ -1,27 +1,6 @@
 package edu.alonso.studyhelper
 
-/*
- * Android-specific imports for handling application state,
- * user interface components, and menu creation.
- *
- * - Bundle: Used for passing data between activities.
- * - Menu/MenuItem: For creating and managing the options menu in the app bar.
- * - View/ViewGroup: Core UI components for building layouts.
- * - Button/TextView: Specific UI widgets for user interaction and displaying text.
- *
- * AndroidX compatibility library for providing modern features on
- * older Android versions.
- *
- * - AppCompatActivity: A base class for activities that use the support
- *   library's action bar features.
- *
- * Project-specific classes for data models and the ViewModel.
- *
- * - Question/Subject: Data classes representing the core objects of the app.
- * - QuestionListViewModel: The ViewModel responsible for preparing and managing
- *   the data for the QuestionActivity.
- */
-
+// Import necessary Android and androidx classes
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
