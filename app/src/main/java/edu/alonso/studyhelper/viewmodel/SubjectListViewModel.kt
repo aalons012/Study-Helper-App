@@ -4,7 +4,7 @@ import android.app.Application
 import edu.alonso.studyhelper.model.Subject
 import edu.alonso.studyhelper.repo.StudyRepository
 
-class SubjectListViewModel(application: Application) {
+class  SubjectListViewModel(application: Application) {
 
     private val studyRepo = StudyRepository.getInstance(application.applicationContext)
 
